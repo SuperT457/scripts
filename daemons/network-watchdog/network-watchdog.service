@@ -3,4 +3,4 @@ Description=Restart network service after wifi issues
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/network-watchdog.sh
+ExecStart=/bin/bash /usr/local/bin/network-watchdog.sh

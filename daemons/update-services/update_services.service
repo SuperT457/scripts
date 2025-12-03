@@ -3,4 +3,4 @@ Description=Update machine services
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/update_services.sh
+ExecStart=/bin/bash /usr/local/bin/update_services.sh
