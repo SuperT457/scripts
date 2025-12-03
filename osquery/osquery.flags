@@ -1,0 +1,10 @@
+--audit_allow_user_events=true
+--audit_persist=true
+--audit_allow_config=true
+--audit_allow_fim_events=true
+--audit_fim_show_accesses=true
+--disable_audit=false
+--disable_events=false
+--verbose
+--events_expiry=1
+--events_max=50000

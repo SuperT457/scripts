@@ -1,0 +1,9 @@
+{
+  "port": YOUR_PORT,
+  "baseURL": "",
+  "address": "",
+  "log": "stdout",
+  "database": "/etc/filebrowser/filebrowser.db",
+  "root": "/YOUR/BASE/PATH"
+}
+

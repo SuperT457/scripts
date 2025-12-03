@@ -1,0 +1,13 @@
+[Unit]
+Description=Generate alert for Vaultwarden accesses
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/bin/
+EnvironmentFile=/etc/vaultwarden-access/env
+ExecStart=/your/path/tuo/virtualenv/python3 vaultwarden-monitor.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,3 @@
+# place this in /etc/vaultwarden-access
+MY_TOKEN="YOUR-BOT-TOKEN"
+CHAT_ID="YOUR-CHAT-ID"

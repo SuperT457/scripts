@@ -1,0 +1,6 @@
+[Unit]
+Description=Update machine services
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/update_services.sh
